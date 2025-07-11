@@ -1,4 +1,4 @@
-body{
+main{
   background-color: rgb(245, 248, 255);
   max-width: 1440px;
 }
@@ -194,6 +194,7 @@ nav {
 .u-class{
   max-width: 366px;
   box-shadow: 20px 20px 20px rgba(242, 237, 237, 1);
+  border-radius: 14px;
 }
 .focusing{
   max-width: 1140px;
@@ -205,6 +206,7 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
+  border-radius: 14px;
 }
 .focus-better{
   font-size: 50px;
@@ -227,6 +229,7 @@ nav {
   width: 840px;
   height: 364px;
   border-radius: 48px;
+  max-width: 840px;
 }
 .form{
   display: flex;
@@ -258,6 +261,7 @@ nav {
   height: 490px;
   width: 497px;
   margin-top: 71px;
+  /* font-size: 50px; */
 }
 .form{
   margin-top: 92px;
@@ -288,4 +292,53 @@ input[type="text"],input[type="email"],textarea{
   font-size: 16px;
   margin-left: 0px;
   /* margin-right: 0px; */
+}
+footer{
+  max-width: 1440px;
+}
+.last-logo{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: bolder; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 34px;
+  margin: 50px;
+  color: #4e47ff;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 900;
+}
+.last-des{
+  text-align: center;
+  font-size: 45px;
+  color: rgba(137, 135, 161, 1);
+}
+.last-dev{
+  margin-top: 104px;
+  margin-bottom: 147px;
+  margin-left: 454;
+  margin-right: 455;
+}
+.about-section{
+  display: flex;
+  justify-content: space-around;
+  font-size: 43px;
+}
+a{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+}
+.power:hover{
+  background-color: cyan;
+  border: 2px solid black;
+}
+input::placeholder{
+  font-size: 20px;
+}
+textarea::placeholder{
+  font-size: 20px;
+}
+textarea{
+  height: 150px;
 }
