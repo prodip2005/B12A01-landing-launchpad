@@ -1,7 +1,19 @@
-main{
-  background-color: rgb(245, 248, 255);
-  max-width: 1440px;
+
+body {
+  background-color: white; 
+  margin: 0;
+  padding: 0;
 }
+
+.wrapper {
+  max-width: 1440px; 
+  margin: 0 auto;     
+  background-color: rgb(245, 248, 255);  
+  min-height: 100%;  
+}
+
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -295,6 +307,7 @@ input[type="text"],input[type="email"],textarea{
 }
 footer{
   max-width: 1440px;
+  background-color: white;
 }
 .last-logo{
   font-family: "Open Sans", sans-serif;
