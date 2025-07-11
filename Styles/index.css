@@ -1,4 +1,4 @@
-.body-design{
+body{
   background-color: rgb(245, 248, 255);
   max-width: 1440px;
 }
@@ -81,6 +81,9 @@ nav {
 .header-com{
   max-width: 905px;
   max-height: 237px;
+  align-items: center;
+  margin-left: 267px;
+  margin-right: 267px;
 }
 .buttton-live-preview {
   color: #ffffff;
@@ -191,4 +194,98 @@ nav {
 .u-class{
   max-width: 366px;
   box-shadow: 20px 20px 20px rgba(242, 237, 237, 1);
+}
+.focusing{
+  max-width: 1140px;
+  margin-left: 151px;
+  margin-right: 151px;
+  margin-top: 137px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.focus-better{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+}
+.focus-temp{
+  text-align: center;
+  color: rgb(127, 127, 127);
+}
+.started-button{
+  align-items: center;
+}
+.focus-img{
+  width: 840px;
+  height: 364px;
+  border-radius: 48px;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 92px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 14px;
+ max-width: 1140px;
+}
+.touch-font{
+  font-size: 97px;
+  font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  
+}
+.touch-des{
+  /* height: 232px;
+  width: 528px; */
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-right: 115px;
+}
+.form-add{
+  height: 490px;
+  width: 497px;
+  margin-top: 71px;
+}
+.form{
+  margin-top: 92px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+input[type="text"],input[type="email"],textarea{
+  height: 70px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.last-button{
+  color: #ffffff;
+  background-color: #4e47ff;
+  padding: 0px;
+  width: 540px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 50px;
+  font-size: 16px;
+  margin-left: 0px;
+  /* margin-right: 0px; */
 }
