@@ -133,3 +133,62 @@ nav {
   color: rgba(0, 0, 0, 0.5);
   margin: 50px;
 }
+.rev-info{
+  display: flex;
+  align-items: center;
+}
+.ledis{
+  height: 40px;
+  width: 40px;
+  border-radius: 9999px;
+}
+.users-talk{
+  margin-top: 137px;
+  margin-left: 151px;
+  margin-right: 151px;
+  
+}
+.users-thambnail{
+  font-size: 42px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  
+}
+.stars{
+  height: 20px;
+  width: 20px;
+}
+.loved{
+  font-size: 21px;
+  font-weight: bold;
+}
+.tempo{
+   font-size: 15px;
+   max-width: 250px;
+}
+.rev-name{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(117, 117, 117, 1);
+  margin-bottom: 0px;
+}
+.rev-date{
+  font-size: 18px;
+  color: rgba(179, 179, 179, 1);
+  margin-top: 0px;
+}
+.u-classes{
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.u-class{
+  max-width: 366px;
+  box-shadow: 20px 20px 20px rgba(242, 237, 237, 1);
+}
