@@ -173,6 +173,7 @@ nav {
 .rev-info{
   display: flex;
   align-items: center;
+  gap: 25px;
 }
 .ledis{
   height: 40px;
